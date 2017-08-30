@@ -28,8 +28,8 @@ namespace JurosSimplesMF
         {
             if (txtNome.Text != "")
             { 
-            ra = txtNome.Text;
-            Close();
+                ra = txtNome.Text.Trim();
+                Close();
             }
             else
             {
