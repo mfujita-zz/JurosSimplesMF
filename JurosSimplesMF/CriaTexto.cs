@@ -8,7 +8,7 @@ namespace JurosSimplesMF
 {
     class CriaTexto
     {
-        public int[] valores = new int[30];
+        private int[] valores = new int[30];
 
         public int[] GeraValoresParaProblema(string ra)
         {
